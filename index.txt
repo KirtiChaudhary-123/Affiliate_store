@@ -1,52 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>My Deals Hub</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>🛍️ My Deals Hub</h1>
-    <p>Best picks from Amazon, Meesho, Flipkart, Myntra & Nykaa</p>
-  </header>
-
-  <main class="product-grid">
+<main class="product-grid">
     <div class="product-card">
-      <img src="images/amazon1.jpg" alt="Amazon Product">
-      <h2>Wireless Earbuds</h2>
-      <p>₹1,299</p>
-      <a href="https://www.amazon.in/dp/PRODUCTID?tag=yourtag" target="_blank">Buy on Amazon</a>
-    </div>
+  <img src="images/amazon1.png" alt="Wireless Earbuds">
+  <h2>Wireless Earbuds</h2>
+  <p>₹3,499</p>
+  <a href="https://amzn.in/d/2M0G4EE/product-link" target="_blank">Buy on Amazon</a>
+</div>
 
-    <div class="product-card">
-      <img src="images/meesho1.jpg" alt="Meesho Product">
-      <h2>Printed Kurti</h2>
-      <p>₹499</p>
-      <a href="https://www.meesho.com/product-link" target="_blank">Buy on Meesho</a>
-    </div>
+ <div class="product-card">
+  <img src="images/amazon2.png" alt="Gold SmartWatch">
+  <h2>Gold SmartWatch</h2>
+  <p>₹1,099</p>
+  <a href="https://amzn.in/d/iD6Qyae/product-link" target="_blank">Buy on Amazon</a>
+</div>
 
-    <div class="product-card">
-      <img src="images/flipkart1.jpg" alt="Flipkart Product">
-      <h2>Smartwatch</h2>
-      <p>₹1,999</p>
-      <a href="https://www.flipkart.com/product-link" target="_blank">Buy on Flipkart</a>
-    </div>
 
-    <div class="product-card">
-      <img src="images/myntra1.jpg" alt="Myntra Product">
-      <h2>Denim Jacket</h2>
-      <p>₹1,299</p>
-      <a href="https://www.myntra.com/product-link" target="_blank">Buy on Myntra</a>
-    </div>
 
-    <div class="product-card">
-      <img src="images/nykaa1.jpg" alt="Nykaa Product">
-      <h2>Matte Lipstick</h2>
-      <p>₹699</p>
-      <a href="https://www.nykaa.com/product-link" target="_blank">Buy on Nykaa</a>
-    </div>
-  </main>
+         </main>
 
   <footer>
     <p>© 2025 My Deals Hub | Powered by Netlify</p>
