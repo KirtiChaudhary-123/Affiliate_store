@@ -1,17 +1,21 @@
+<html>
+<body>
 <main class="product-grid">
     <div class="product-card">
   <img src="images/amazon1.png" alt="Wireless Earbuds">
   <h2>Wireless Earbuds</h2>
   <p>₹3,499</p>
-  <a href="https://amzn.in/d/2M0G4EE/product-link" target="_blank">Buy on Amazon</a>
+  <a href="https://amzn.in/d/2M0G4EE" target="_blank">Buy on Amazon</a>
 </div>
+
 
  <div class="product-card">
   <img src="images/amazon2.png" alt="Gold SmartWatch">
   <h2>Gold SmartWatch</h2>
   <p>₹1,099</p>
-  <a href="https://amzn.in/d/iD6Qyae/product-link" target="_blank">Buy on Amazon</a>
+ <a href="https://amzn.in/d/iD6Qyae" target="_blank">Buy on Amazon</a>
 </div>
+
 
 
 
