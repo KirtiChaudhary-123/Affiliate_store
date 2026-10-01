@@ -2,35 +2,110 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Deals Hub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Thoughtfully picked everyday tech finds, with simple links to shop.">
+  <title>The Good Edit | Everyday finds, thoughtfully picked</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>🛍️ My Deals Hub</h1>
-    <p>Best picks from Amazon</p>
+  <header class="site-header">
+    <div class="nav-shell page-width">
+      <a class="brand" href="#top" aria-label="The Good Edit home">
+        <span class="brand-mark" aria-hidden="true">g</span>
+        <span>the good edit</span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#picks">Shop the edit</a>
+        <a href="#about">How it works</a>
+      </nav>
+      <a class="nav-cta" href="#picks">Browse finds <span aria-hidden="true">↗</span></a>
+    </div>
   </header>
 
-  <main class="product-grid">
-    <div class="product-card">
-      <img src="amazon1.png" alt="Amazon Product">
-      <h2>Wireless Earbuds</h2>
-      <p>₹3,499</p>
-      <a href="https://amzn.in/d/2M0G4EE" target="_blank">Buy on Amazon</a>
-</div>
- <div class="product-card">
-  <img src="amazon2.png" alt"Amazon Product">
-  <h2>Gold SmartWatch</h2>
-  <p>₹1,099</p>
- <a href="https://amzn.in/d/iD6Qyae" target="_blank">Buy on Amazon</a>
-</div>
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-inner page-width">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> LITTLE FINDS, BIG EVERYDAY ENERGY</p>
+          <h1 id="hero-title">Everyday finds,<br><span>picked with care.</span></h1>
+          <p class="hero-description">A thoughtful edit of useful things worth knowing about. Browse our latest tech favourites and shop what suits you.</p>
+          <a class="hero-link" href="#picks">Shop the latest finds <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-showcase" aria-label="Featured everyday tech finds">
+          <div class="showcase-sun" aria-hidden="true"></div>
+          <img class="showcase-earbuds" src="amazon1.png" alt="Wireless earbuds with charging case">
+          <img class="showcase-watch" src="amazon2.png" alt="Smartwatch">
+          <span class="showcase-note">GOOD THINGS, FOUND <b aria-hidden="true">✳</b></span>
+          <span class="showcase-tag">THE TECH EDIT</span>
+        </div>
+      </div>
+      <div class="hero-meta page-width"><span>THOUGHTFUL PICKS FOR EVERYDAY LIFE</span><span>NEW FINDS TO LOVE <b aria-hidden="true">♥</b></span></div>
+    </section>
 
+    <section class="picks-section page-width" id="picks" aria-labelledby="picks-title">
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">IN THE SPOTLIGHT</p>
+          <h2 id="picks-title">A few good finds.</h2>
+        </div>
+        <p class="section-note">Useful little upgrades for your everyday.<br>Take a look and see what catches your eye.</p>
+      </div>
 
-  
+      <div class="product-grid">
+        <article class="product-card">
+          <div class="product-visual">
+            <span class="product-index">AUDIO FAVOURITE</span>
+            <img src="amazon1.png" alt="Black wireless earbuds and charging case">
+            <span class="visual-caption">MADE FOR YOUR EVERYDAY</span>
+          </div>
+          <div class="product-info">
+            <div class="product-heading">
+              <div><p class="product-category">A LITTLE MORE YOU-TIME</p><h3>Wireless Earbuds</h3></div>
+              <span class="product-number" aria-hidden="true">♡</span>
+            </div>
+            <div class="product-bottom">
+              <p class="product-price">₹3,499 <span>PRICE MAY CHANGE</span></p>
+              <a class="buy-link" href="https://amzn.in/d/2M0G4EE" target="_blank" rel="noopener noreferrer">Check it out <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-visual product-visual-watch">
+            <span class="product-index">EVERYDAY PICK</span>
+            <img src="amazon2.png" alt="Black smartwatch with a digital display">
+            <span class="visual-caption">A SMARTER DAILY ROUTINE</span>
+          </div>
+          <div class="product-info">
+            <div class="product-heading">
+              <div><p class="product-category">KEEP YOUR DAY IN SYNC</p><h3>Smartwatch</h3></div>
+              <span class="product-number" aria-hidden="true">♡</span>
+            </div>
+            <div class="product-bottom">
+              <p class="product-price">₹1,099 <span>PRICE MAY CHANGE</span></p>
+              <a class="buy-link" href="https://amzn.in/d/iD6Qyae" target="_blank" rel="noopener noreferrer">Check it out <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="about-strip" id="about" aria-label="About this edit">
+      <div class="about-inner page-width">
+        <span class="about-mark" aria-hidden="true">♥</span>
+        <p><strong>A note about links.</strong> Some links are affiliate links. If you buy through one, we may earn a small commission at no extra cost to you.</p>
+        <a href="#top">BACK TO TOP <span aria-hidden="true">↑</span></a>
+      </div>
+    </section>
   </main>
 
-  <footer>
-    <p>© 2025 My Deals Hub | Powered by Netlify</p>
+  <footer class="site-footer page-width">
+    <a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true">g</span><span>the good edit</span></a>
+    <p>THOUGHTFUL FINDS FOR EVERYDAY LIFE <span>© 2025</span></p>
+    <span class="footer-build">INDEPENDENTLY PICKED <i></i></span>
   </footer>
 </body>
 </html>
